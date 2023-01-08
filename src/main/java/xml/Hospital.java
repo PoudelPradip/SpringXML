@@ -14,6 +14,9 @@ public class Hospital {
         System.out.println("Hospital make bill");
     }
 
+    public void hospitalInfo(){
+        System.out.println("Hospital Info");
+    }
     public void fetchDoctor(){
         this.doctor.checkPatient();
         this.doctor.giveMedicine();

@@ -10,5 +10,6 @@ public class ExecutionMain {
         hospital.fetchDeptInfo();
         hospital.fetchDoctor();
         hospital.makeBill();
+        hospital.hospitalInfo();
     }
 }
